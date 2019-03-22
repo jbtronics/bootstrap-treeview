@@ -35,3 +35,11 @@
 	color: silver;
 	cursor: not-allowed;
 }
+
+.treeview {
+    font-size: 12px;
+}
+
+.fa-treeview {
+    line-height: 1.428;
+}
