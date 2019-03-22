@@ -37,7 +37,7 @@
 		levels: 2,
 
 		expandIcon: 'fas fa-plus fa-fw treeview-icon',
-		collapseIcon: 'fas fa-minus fa-fw fa-treeview-icon',
+		collapseIcon: 'fas fa-minus fa-fw treeview-icon',
 		emptyIcon: 'fas',
 		nodeIcon: '',
 		selectedIcon: '',
