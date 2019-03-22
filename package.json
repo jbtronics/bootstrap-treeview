@@ -8,17 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jonmiles/bootstrap-treeview.git"
+    "url": "git://github.com/jbtronics/bootstrap-treeview.git"
   },
   "bugs": {
-    "url": "https://github.com/jonmiles/bootstrap-treeview/issues"
+    "url": "https://github.com/jbtronics/bootstrap-treeview/issues"
   },
-  "licenses": [
-    {
-      "type": "Apache",
-      "url": "https://github.com/jonmiles/bootstrap-treeview/blob/master/LICENSE"
-    }
-  ],
+  "license": {
+    "type": "Apache-2.0",
+    "url": "https://github.com/jonmiles/bootstrap-treeview/blob/master/LICENSE"
+  },
   "main": [
     "dist/bootstrap-treeview.min.js",
     "dist/bootstrap-treeview.min.css"
@@ -31,19 +29,18 @@
   "engines": {
     "node": ">= 0.10.0"
   },
-  "dependencies": {
-    "ejs": "^2.6.1",
-    "express": "^4.16.4",
-    "phantomjs": "1.9.x"
-  },
+  "dependencies": {},
   "devDependencies": {
     "bower": "^1.8.8",
     "grunt": "^1.0.3",
-    "grunt-contrib-copy": "0.7.x",
+    "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-cssmin": "^3.0.0",
     "grunt-contrib-qunit": "^3.1.0",
     "grunt-contrib-uglify": "^4.0.1",
-    "grunt-contrib-watch": "^1.1.0"
+    "grunt-contrib-watch": "^1.1.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "phantomjs-prebuilt": "^2.1.16"
   },
   "keywords": [
     "twitter",
