@@ -13,7 +13,8 @@
   "bugs": {
     "url": "https://github.com/jbtronics/bootstrap-treeview/issues"
   },
-  "license": {
+  "license": "Apache-2.0",
+  "licenses": {
     "type": "Apache-2.0",
     "url": "https://github.com/jonmiles/bootstrap-treeview/blob/master/LICENSE"
   },
