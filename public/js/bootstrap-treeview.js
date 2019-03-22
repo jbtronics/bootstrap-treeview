@@ -15,6 +15,9 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
+ *
+ * Updated 2019 Jan Böhmer
+ *
  * ========================================================= */
 
 ;(function ($, window, document, undefined) {
@@ -33,13 +36,13 @@
 
 		levels: 2,
 
-		expandIcon: 'glyphicon glyphicon-plus',
-		collapseIcon: 'glyphicon glyphicon-minus',
-		emptyIcon: 'glyphicon',
+		expandIcon: 'fas fa-plus fa-fw treeview-icon',
+		collapseIcon: 'fas fa-minus fa-fw fa-treeview-icon',
+		emptyIcon: 'fas',
 		nodeIcon: '',
 		selectedIcon: '',
-		checkedIcon: 'glyphicon glyphicon-check',
-		uncheckedIcon: 'glyphicon glyphicon-unchecked',
+		checkedIcon: 'far fa-square fa-fw treeview-icon',
+		uncheckedIcon: 'far fa-check-square fa-fw treeview-icon',
 
 		color: undefined, // '#000000',
 		backColor: undefined, // '#FFFFFF',

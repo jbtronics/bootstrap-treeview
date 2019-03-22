@@ -88,13 +88,13 @@
 			options = getOptions(el);
 		ok(options, 'Defaults created ok');
 		equal(options.levels, 2, 'levels default ok');
-		equal(options.expandIcon, 'glyphicon glyphicon-plus', 'expandIcon default ok');
-		equal(options.collapseIcon, 'glyphicon glyphicon-minus', 'collapseIcon default ok');
-		equal(options.emptyIcon, 'glyphicon', 'emptyIcon default ok');
+		equal(options.expandIcon, 'fas fa-plus fa-fw treeview-icon', 'expandIcon default ok');
+		equal(options.collapseIcon, 'fas fa-minus fa-fw fa-treeview-icon', 'collapseIcon default ok');
+		equal(options.emptyIcon, 'fas', 'emptyIcon default ok');
 		equal(options.nodeIcon, '', 'nodeIcon default ok');
 		equal(options.selectedIcon, '', 'selectedIcon default ok');
-		equal(options.checkedIcon, 'glyphicon glyphicon-check', 'checkedIcon default ok');
-		equal(options.uncheckedIcon, 'glyphicon glyphicon-unchecked', 'uncheckedIcon default ok');
+		equal(options.checkedIcon, 'far fa-square fa-fw treeview-icon', 'checkedIcon default ok');
+		equal(options.uncheckedIcon, 'far fa-check-square fa-fw treeview-icon', 'uncheckedIcon default ok');
 		equal(options.color, undefined, 'color default ok');
 		equal(options.backColor, undefined, 'backColor default ok');
 		equal(options.borderColor, undefined, 'borderColor default ok');

@@ -19,6 +19,9 @@
 
 .treeview .list-group-item {
 	cursor: pointer;
+	
+	padding: 5px 10px;
+    display: flex;
 }
 
 .treeview span.indent {
@@ -34,4 +37,12 @@
 .treeview .node-disabled {
 	color: silver;
 	cursor: not-allowed;
+}
+
+.treeview {
+    font-size: 12px;
+}
+
+.fa-treeview {
+    line-height: 1.428;
 }
